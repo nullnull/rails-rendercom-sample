@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  postgres:
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: trust
+    image: postgres:11-alpine
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres-store:/var/lib/postgresql/data
+
+volumes:
+  postgres-store:
