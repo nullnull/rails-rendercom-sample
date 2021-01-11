@@ -19,4 +19,5 @@ test:
 
 production:
   <<: *default
+  username: render_user
   database: myapp_production
