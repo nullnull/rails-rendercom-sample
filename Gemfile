@@ -16,6 +16,7 @@ gem 'puma', '~> 5.0'
 # gem 'rack-cors'
 
 gem 'pg'
+gem 'redis-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
