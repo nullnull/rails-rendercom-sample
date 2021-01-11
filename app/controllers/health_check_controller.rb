@@ -1,5 +1,5 @@
 class HealthCheckController < ApplicationController
   def show
-    render plain: '200 OK'
+    render plain: 'Message from preview environment'
   end
 end
